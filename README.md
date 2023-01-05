@@ -7,8 +7,13 @@ This repo contains helpful material to learn new technologies. Below, you can fi
 - [ ] ML all topics https://developers.google.com/machine-learning
 - [ ] Tensorflow https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
 - [ ] Pytorch https://learn.microsoft.com/en-us/training/paths/pytorch-fundamentals/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
+- [ ] Basic ML with Sklearn https://www.kaggle.com/learn/intro-to-machine-learning
+- [ ] DL with Keras https://www.kaggle.com/learn/intro-to-deep-learning
+- [ ] Intermediate ML with Sklearn https://www.kaggle.com/learn/intermediate-machine-learning
 
 ## Data Science 💡
+- [ ] Pandas https://www.kaggle.com/learn/pandas
+- [ ] Kaggle free courses! https://www.kaggle.com/learn
 - [ ] Free course https://www.simplilearn.com/getting-started-data-science-with-python-skillup
 - [ ] Checklist https://datascience.stackexchange.com/questions/47854/what-skills-do-i-need-to-become-a-data-scientist-and-how-to-show-them/47873#47873
 
