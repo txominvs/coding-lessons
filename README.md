@@ -5,8 +5,8 @@ This repo contains helpful material to learn new technologies. Below, you can fi
 ## IA 🤖
 - [x] ML Crash Course https://developers.google.com/machine-learning/crash-course
 - [ ] ML all topics https://developers.google.com/machine-learning
-- [ ] Tensorflow https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
-- [ ] Pytorch https://learn.microsoft.com/en-us/training/paths/pytorch-fundamentals/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
+- [ ] Tensorflow https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/
+- [ ] Pytorch https://learn.microsoft.com/en-us/training/paths/pytorch-fundamentals/
 - [ ] Basic ML with Sklearn https://www.kaggle.com/learn/intro-to-machine-learning
 - [ ] DL with Keras https://www.kaggle.com/learn/intro-to-deep-learning
 - [ ] Intermediate ML with Sklearn https://www.kaggle.com/learn/intermediate-machine-learning
@@ -22,10 +22,10 @@ This repo contains helpful material to learn new technologies. Below, you can fi
 - [x] MySQL official tutorial https://dev.mysql.com/doc/refman/8.0/en/tutorial.html
 
 ## C++ ⚡
-- [x] Modern C++11 https://learn.microsoft.com/en-us/shows/cplusplus-language-library/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
+- [x] Modern C++11 https://learn.microsoft.com/en-us/shows/cplusplus-language-library/
 
 ## Git 😼
-- [x] Git https://learn.microsoft.com/en-us/training/paths/intro-to-vc-git/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
-- [x] GitHub https://learn.microsoft.com/en-us/training/modules/introduction-to-github/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
-- [ ] VS Code and Git https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
-- [ ] VS Code and GitHub https://learn.microsoft.com/en-us/training/modules/introduction-to-github-visual-studio-code/?source=docs&ns-enrollment-type=Collection&ns-enrollment-id=bookmarks
+- [x] Git https://learn.microsoft.com/en-us/training/paths/intro-to-vc-git/
+- [x] GitHub https://learn.microsoft.com/en-us/training/modules/introduction-to-github/
+- [ ] VS Code and Git https://learn.microsoft.com/en-us/training/modules/use-git-from-vs-code/
+- [ ] VS Code and GitHub https://learn.microsoft.com/en-us/training/modules/introduction-to-github-visual-studio-code/
