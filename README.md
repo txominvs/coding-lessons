@@ -2,7 +2,7 @@
 
 This repo contains helpful material to learn new technologies. Below, you can find a list of webpages I found useful to get started. Inside each folder, you will find a "cheatsheet" with a list of the must-know fundamental commands of each tool.
 
-## IA 🤖
+## AI 🤖
 - [x] ML Crash Course https://developers.google.com/machine-learning/crash-course
 - [ ] ML all topics https://developers.google.com/machine-learning
 - [ ] Tensorflow https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/
