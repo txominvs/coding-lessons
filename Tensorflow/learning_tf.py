@@ -2,9 +2,9 @@ import tensorflow as tf
 from tensorflow import keras
 
 (x_train,y_train),(x_test,y_test) = tf.keras.datasets.fashion_mnist.load_data()
-(x_train,y_train),(x_test,y_test) = keras.datasets.mnist.load_data() 
-(x_train,y_train),(x_test,y_test) = keras.datasets.cifar10.load_data()
-ds_train = keras.preprocessing.image_dataset_from_directory(
+(x_train,y_train),(x_test,y_test) = tf.keras.datasets.mnist.load_data() 
+(x_train,y_train),(x_test,y_test) = tf.keras.datasets.cifar10.load_data()
+ds_train = tf.keras.preprocessing.image_dataset_from_directory(
     data_dir = 'folder/',
     validation_split = 0.2,
     subset = 'training', # or = 'validation',
@@ -27,7 +27,7 @@ model = keras.Sequential([
     keras.applications.VGG16(include_top=False,input_shape=(224,224,3)), # model.layers[0].trainable = False,
 ])
 
-model.compile(optimizer, loss_fn, metrics)
+model.compile(optimizer, loss, metrics)
 
 hist = model.fit( train_dataset,   epochs=3)
 hist = model.fit( x_train,y_train, validation_data=(x_test,y_test), epochs=3, batch_size=128)
