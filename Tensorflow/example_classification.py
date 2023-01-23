@@ -6,14 +6,13 @@ y_train = []
 import numpy as np
 from numpy.random import default_rng
 rng = default_rng()
-for i in range(10000):
+for i in range(30000):
     vals = rng.uniform(size=4)
     x_train.append(vals.tolist())
     y_train.append(np.argmax(vals).tolist())
 
-
 ### Creating a dataset speeds up the network
-train_dataset = tf.data.Dataset.from_tensor_slices((x_train, y_train,)).batch(10)
+train_dataset = tf.data.Dataset.from_tensor_slices((x_train, y_train,)).batch(10).shuffle(buffer_size=1024)
 
 ### Neural Network
 model = tf.keras.Sequential([
@@ -26,7 +25,7 @@ model.compile(
     loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=False),
     metrics=['acc'])
 
-model.fit(train_dataset, epochs=1)
+model.fit(train_dataset, epochs=3)
 
 ### Two ways to test the network
 print(model(tf.constant([ [0.25,0.25,0.25,0.25],[0.03,0.9,0.03,0.03], ])))
