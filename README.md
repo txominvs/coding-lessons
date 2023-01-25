@@ -11,6 +11,13 @@ This repo contains helpful material to learn new technologies. Below, you can fi
 - [ ] DL with Keras https://www.kaggle.com/learn/intro-to-deep-learning
 - [ ] Intermediate ML with Sklearn https://www.kaggle.com/learn/intermediate-machine-learning
 
+### Keras and Tensorflow
+- [ ] Neural Nets with Keras https://keras.io/getting_started/intro_to_keras_for_engineers/
+- [ ] Keras: text vectorization https://keras.io/examples/nlp/text_classification_from_scratch/
+- [ ] Keras: image classification https://keras.io/examples/vision/image_classification_from_scratch/
+- [ ] Keras: weights in training https://keras.io/examples/structured_data/imbalanced_classification/
+- [ ] Gradients with Tensorflow https://keras.io/getting_started/intro_to_keras_for_researchers/
+
 ## Data Science 💡
 - [ ] Pandas https://www.kaggle.com/learn/pandas
 - [ ] Kaggle free courses! https://www.kaggle.com/learn
