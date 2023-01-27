@@ -1,0 +1,4 @@
+- PReLU
+- Leaky RELU
+- Read from a text file & Cesarren sarea
+- Ikastaroakaz segidu
