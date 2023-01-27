@@ -49,6 +49,7 @@ git reset HEAD file_name.txt # recover file in git
 git checkout -- file_name.txt # recover file even after "git rm"!
 
 git revert --no-edit HEAD # commit a commit that undoes the last commit
+git reset --hard HEAD # delete current work and go to last valid commit
 git reset --hard HEAD^ # remove last commit
 
 # Collaborator
