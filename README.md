@@ -2,6 +2,31 @@
 
 This repo contains helpful material to learn new technologies. Below, you can find a list of webpages I found useful to get started. Inside each folder, you will find a "cheatsheet" with a list of the must-know fundamental commands of each tool.
 
+## TODOs 🥵
+
+### Things I should learn after 
+
+https://datascience.stackexchange.com/questions/47854/what-skills-do-i-need-to-become-a-data-scientist-and-how-to-show-them/47873#47873
+
+Machine Learning: ANOVA and Principal Component Analysis and Chi-squared test and Pearson correlation 
+https://www.coursera.org/learn/data-analysis-with-python?specialization=ibm-data-science
+
+Modern C++ https://www.udemy.com/course/beg-modern-cpp/
+SQL https://www.coursera.org/learn/sql-data-science?specialization=ibm-data-analyst
+
+Learn: https://aws.amazon.com/es/what-is/restful-api/
+
+
+### Things I should have a look at == 🧐
+
+Docker https://www.youtube.com/watch?v=gAkwW2tuIqE
+Unit Testing https://www.youtube.com/watch?v=DhUpxWjOhME
+REST APIs. https://www.youtube.com/watch?v=-MTSQjw5DrM
+CI/CD pipelines https://www.youtube.com/watch?v=scEDHsr3APg
+Agile Software Development Methodologies & Scrum
+Django
+
+
 ## AI 🤖
 - [x] ML Crash Course https://developers.google.com/machine-learning/crash-course
 - [ ] ML all topics https://developers.google.com/machine-learning
