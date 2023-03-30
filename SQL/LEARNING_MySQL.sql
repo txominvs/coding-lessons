@@ -129,7 +129,7 @@ SELECT pet.name, TIMESTAMPDIFF( YEAR, pet.birth, event.date ) AS age, remark
 SELECT pet1.name, pet2.name, pet1.species AS species
 	FROM pet AS pet1 INNER JOIN pet AS pet2
 	ON pet1.species = pet2.species
-		AND pet1.name > pet2.name; -- avoid repeated pais (Billy, Anna) = (Anna, Billy)
+		AND pet1.name > pet2.name; -- avoid repeated pairs (Billy, Anna) = (Anna, Billy)
 
 
 SELECT MAX(colum_name) FROM table_name;
