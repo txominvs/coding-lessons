@@ -1,3 +1,7 @@
+###
+# https://spark.apache.org/docs/latest/api/python/getting_started/index.html
+###
+
 # pip install pyspark
 # pip install pyspark[sql]
 # pip install pyspark[pandas_on_spark] plotly  # to plot your data, you can install plotly together.
@@ -34,14 +38,14 @@ df = spark.createDataFrame(...)
 import pandas as pd # pandas
 import pyspark.pandas as ps # pandas-on-spark
 
-df = spark.createDataFrame(...) # Spark
-psdf = sdf.pandas_api() # pandas-on-Spark
-pdf = df.toPandas() # Pandas
+df = spark.createDataFrame(...) # FROM Spark
+psdf = sdf.pandas_api() # TO pandas-on-Spark
+pdf = df.toPandas() # TO Pandas
 
-psdf = ps.range(10) # pandas-on-Spark
-sdf = psdf.to_spark().filter("id > 5") # Spark
-pdf = psdf.to_pandas() # Pandas
+psdf = ps.range(10) # FROM pandas-on-Spark
+sdf = psdf.to_spark().filter("id > 5") # TO Spark
+pdf = psdf.to_pandas() # TO Pandas
 
-pdf = pd.DataFrame(...) # pandas
-psdf = ps.from_pandas(pdf) # pandas-on-Spark
-sdf = spark.createDataFrame(pdf) # Spark
+pdf = pd.DataFrame(...) # FROM pandas
+psdf = ps.from_pandas(pdf) # TO pandas-on-Spark
+sdf = spark.createDataFrame(pdf) # TO Spark
